@@ -1,0 +1,7 @@
+aws_access_key = "AKIAV5BOGVO7M6XQY7P7"
+aws_secret_key = "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"
+region = "us-east-1"
+project_name = "McKinley_Kura_Deployment4"
+vpc_cidr="10.0.0.0/16"
+public_subnet_az1_cidr="10.0.0.0/24"
+public_subnet_az2_cidr="10.0.0.0/24"
