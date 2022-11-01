@@ -89,11 +89,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            emailext to: "mckinleyvsterling@gmail.com",
-            subject: "Jenkins Alert for ${currentBuild.projectName} - Build ${currentBuild.number} Result",
-            body: "Confirming that build ${currentBuild.number} has been completed for ${currentBuild.projectName} with a result of ${currentBuild.result}.\n\nFor more information, please visit ${env.BUILD_URL} for details on the build."
-        }
-    }
 }
